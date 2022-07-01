@@ -16,7 +16,7 @@ This CLI tool calculates MGLT measurements, used in the Star Wars franchise!
 </br>
 </div>
 
-## Instalação:
+## 📦 Installation:
 
 I'm assuming you have [Git](https://git-scm.com/) and [NodeJS](https://nodejs.org/en/) in your system.
 
@@ -26,18 +26,18 @@ I used pnpm in this project, so type: (if you don't have it installed)
 npm install -g pnpm
 ```
 
-Code download:
+👨‍💻 Code download:
 
 ```bash
  git clone https://github.com/pedroperegrinaa/technical-test-swapi.git
 ```
 
-Download modules:
+🛠 Download modules:
 
 ```bash
 pnpm install
 ```
-## CLI
+## ⌨ CLI
 
 Você pode usar este programa da seguinte forma:
 
