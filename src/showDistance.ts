@@ -2,8 +2,11 @@ import getStarships from './getStarships'
 import { yellow } from 'colors'
 
 import calcConsumablesTime from './calcConsumiblesTime'
+const { SWStarships } = require('./asciiArt')
 
-async function showDistance (distance: number) {
+export default async function showDistance (distance: number) {
+  console.log(yellow(SWStarships))
+
   const starships = await getStarships()
 
   starships.forEach(starship => {
@@ -14,4 +17,4 @@ async function showDistance (distance: number) {
   })
 }
 
-showDistance(1000000)
+// showDistance(1000000)
