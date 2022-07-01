@@ -1,8 +1,6 @@
-<center>
-
-![alt](./assets/images/sw-starship-transparent.png)
-
-</center>
+<div align="center">
+   <img  src="./assets/images/sw-starship-transparent.png"/>
+</div>
 
 <p align="center">
  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white">
