@@ -11,7 +11,7 @@
 </p>
 
 <div align="center">
-   <h1>Star Wars Starships</h1>
+   <h1>🚀 Star Wars Starships 🚀</h1>
 This CLI tool calculates MGLT measurements, used in the Star Wars franchise!
 
 </br>
