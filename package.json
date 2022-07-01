@@ -1,18 +1,21 @@
 {
   "name": "technical-test-swapi",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "This CLI tool calculates MGLT measurements, used in the Star Wars franchise!",
+  "main": "index.ts",
   "scripts": {
     "dev": "nodemon src/server.ts",
     "mock": "NODE_ENV=mock nodemon src/server.ts",
-    "build": "sucrase ./src -d .dist --transforms typescript, imports"
+    "build": "sucrase ./src -d .dist --transforms typescript, imports",
+    "create": "npm run build && npm run test",
+    "local": "sudo npm i -g && pizza"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^18.0.0",
+    "@types/yargs": "^17.0.10",
     "@typescript-eslint/eslint-plugin": "^5.30.0",
     "@typescript-eslint/parser": "^5.30.0",
     "eslint": "^8.0.1",
@@ -21,6 +24,7 @@
     "eslint-plugin-n": "^15.0.0",
     "eslint-plugin-promise": "^6.0.0",
     "nodemon": "^2.0.18",
+    "pkg": "^5.7.0",
     "sucrase": "^3.22.0",
     "typescript": "^4.7.4"
   },
@@ -28,6 +32,7 @@
     "axios": "^0.27.2",
     "colors": "^1.4.0",
     "commander": "^9.3.0",
-    "dotenv": "^16.0.1"
+    "dotenv": "^16.0.1",
+    "yargs": "^17.5.1"
   }
 }
