@@ -19,9 +19,9 @@ This CLI tool calculates MGLT measurements, used in the Star Wars franchise!
 
 ## 📦 Installation:
 
-I'm assuming you have [Git](https://git-scm.com/) and [NodeJS](https://nodejs.org/en/) in your system.
+👀 I'm assuming you have [Git](https://git-scm.com/) and [NodeJS](https://nodejs.org/en/) in your system.
 
-I used pnpm in this project, so type: (if you don't have it installed)
+🥰 I used pnpm in this project, so type: (if you don't have it installed)
 
 ```bash
 npm install -g pnpm
