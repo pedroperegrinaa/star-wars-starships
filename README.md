@@ -1,6 +1,6 @@
 <center>
 
-![alt](./assets/images/sw-starship.png)
+![alt](./assets/images/sw-starship-transparent.png)
 
 </center>
 
