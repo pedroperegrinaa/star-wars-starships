@@ -39,13 +39,13 @@ pnpm install
 ```
 ## ⌨ CLI
 
-Você pode usar este programa da seguinte forma:
+💜 Use:
 
-```bash
+```bash 
 sucrase-node src/index.ts distance 1000000
 ```
 
-This is the expected return:
+💚 This is the expected return:
 
 ```bash
 
